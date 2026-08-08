@@ -169,8 +169,9 @@ button:focus-visible, input:focus-visible { outline: 3px solid var(--ring); outl
 .definition-result h3 { margin: 24px 0 9px; color: var(--primary); font-size: 1rem; text-transform: capitalize; }
 .definition-result p { margin: 0; color: var(--muted); line-height: 1.8; }
 .phonetic, .word-pronunciation { display: flex; gap: 12px; align-items: center; margin: 0 0 18px; color: var(--muted); }
-.audio-button { padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface-subtle); color: var(--primary-strong); font-weight: 700; cursor: pointer; transition: transform var(--transition), background var(--transition), border-color var(--transition); }
-.audio-button:hover { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 16%, var(--surface-solid)); transform: translateY(-2px); }
+.back-button, .audio-button { padding: 8px 14px; border: 1px solid var(--border); border-radius: 999px; background: var(--surface-subtle); color: var(--primary-strong); font-weight: 700; cursor: pointer; transition: transform var(--transition), background var(--transition), border-color var(--transition), box-shadow var(--transition); }
+.back-button { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 20px; box-shadow: var(--shadow-sm); }
+.back-button:hover, .audio-button:hover { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 16%, var(--surface-solid)); box-shadow: 0 8px 20px color-mix(in srgb, var(--primary) 26%, transparent); transform: translateY(-2px); }
 
 /* Popular searches and popover */
 .popular-section { position: relative; padding: 0 6px; }
