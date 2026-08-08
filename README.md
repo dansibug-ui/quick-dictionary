@@ -10,8 +10,8 @@ The project allows users to search for words, explore definitions and related in
 - Word definitions and related information
 - Word of the Day
 - Recent searches
-- 🌙 Light and dark mode
-- 📱 Responsive design
+- Light and dark mode
+- Responsive design
 
 ## Technologies
 
