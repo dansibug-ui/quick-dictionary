@@ -1,10 +1,11 @@
-<img width="1287" height="621" alt="{6CB43BC9-A97B-4C02-921C-94306587CC3D}" src="https://github.com/user-attachments/assets/9fca1f2e-d4df-41e6-b8bb-f53fd1b14400" />
-
 # Dictionary Project
 
-A modern, responsive dictionary web application built with React and Vite.
+A responsive dictionary web application built with React and Vite.
 
 The project allows users to search for words, explore definitions and related information, and discover a Word of the Day.
+
+## Preview
+<img width="1287" height="621" alt="{6CB43BC9-A97B-4C02-921C-94306587CC3D}" src="https://github.com/user-attachments/assets/9fca1f2e-d4df-41e6-b8bb-f53fd1b14400" />
 
 ## Features
 
