@@ -1,14 +1,17 @@
 # Dictionary Project
 
-A modern dictionary web application built with React and Vite.
+A modern, responsive dictionary web application built with React and Vite.
+
+The project allows users to search for words, explore definitions and related information, and discover a Word of the Day.
 
 ## Features
 
-- Word search
+- Word search with results
+- Word definitions and related information
 - Word of the Day
-- Recent Searches
-- Dark mode
-- Responsive design
+- Recent searches
+- 🌙 Light and dark mode
+- 📱 Responsive design
 
 ## Technologies
 
@@ -17,11 +20,4 @@ A modern dictionary web application built with React and Vite.
 - JavaScript
 - CSS
 - Dictionary API
-
-## Installation
-
-npm install
-
-## Development
-
-npm run dev
+- ESLint
